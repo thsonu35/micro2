@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&family=Delius+Unicase:wght@700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&family=Delius+Unicase:wght@700&family=Inter:wght@400;700&display=swap"
+    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&family=Delius+Unicase:wght@700&family=Inter:wght@400;700&family=Roboto&display=swap"
+    rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    .nav-header {
+        background-color: rgba(111, 106, 247, 1);
+        display: flex;
+        color: rgba(255, 255, 255, 1);
+        justify-content: space-between;
+        /* height: 127px; */
+        align-items: center;
+        width: 100%;
+        padding: 0 44px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .header-item ul {
+        display: flex;
+        /* font-size: 24px; */
+        /* justify-content: space-between; */
+    }
+
+    .header-text {
+        font-weight: 700;
+        font-family: "Delius Unicase";
+        margin: 15px;
+        font-size: 61px;
+
+    }
+
+    .header-menubar {
+        font-size: 61px;
+        font-weight: 400px;
+        padding: 15px 20px;
+
+    }
+
+    ul>li {
+        padding-left: 34px;
+        font-size: 31px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    input {
+        border-radius: 63px;
+        height: 44px;
+        width: 300px;
+        border: 2px solid;
+        outline: none;
+
+
+    }
+
+    ::placeholder {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+
+    .search-icon {
+        position: absolute;
+        right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    .img-card>img {
+        border-radius: 20px;
+        box-shadow: 4px 7px 32px 0px rgba(0, 0, 0, 0.44);
+
+    }
+
+    .card-one {
+        padding: 129px;
+        margin: 0px 0 20px 28px;
+        display: flex;
+        margin-top: 0;
+    }
+
+    .text-box {
+        height: 507px;
+        background: linear-gradient(0deg, #E5D8FF, #E5D8FF);
+
+
+        width: 972px;
+        margin-left: 49px;
+        border-radius: 20px;
+        border: 6px solid rgba(255, 255, 255, 1);
+        box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+
+    }
+
+    .text {
+        padding: 20px;
+        font-family: "DM Sans";
+        font-size: 29px;
+        color: rgba(111, 115, 115, 1);
+
+    }
+
+    .box {
+        padding: 0 101px;
+        justify-content: space-between;
+        display: flex;
+
+
+    }
+
+    .box>div {
+        background-color: wheat;
+        padding-left: 40px;
+        padding-top: 20px;
+        box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+        /* flex-direction: column; */
+        border-radius: 11px;
+        height: 145px;
+        width: 337px;
+        font-family: "DM Sans";
+        font-size: 29px;
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+    .endtext1 {
+        background-color: rgba(72, 62, 255, 1);
+        height: 717px;
+        padding: 25px;
+        margin: 101px;
+        box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+        border-radius: 22px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+    .endtext2>div {
+        border-radius: 22px;
+        border: 5px solid rgba(255, 255, 255, 1);
+        padding: 73px;
+        height: 133px;
+        width: 397px;
+        margin: 52px;
+        font-size: 35px;
+        /* justify-content: center; */
+        font-family: "DM Sans";
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+
+        /* margin-top: 120px;
+    margin-left: 650px;
+    border-radius: 9px;
+        height: 78px;
+        width: 207px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center ; */
+
+    }
+
+    div>.selected {
+        background-color: rgba(188, 224, 246, 1);
+        border: 5px solid rgba(188, 224, 246, 1);
+
+    }
+
+    .info {
+        padding: 0 31px;
+        background-color: rgba(255, 255, 255, 1);
+        width: 930px;
+        border-radius: 19px;
+    }
+
+    .information {
+        padding-left: 54px;
+        padding-top: 73px;
+        font-size: 38px;
+        font-family: "Inter";
+        color: rgba(4, 40, 90, 1);
+
+    }
+
+    .details>div {
+        padding-left: 84px;
+        font-size: 28px;
+        padding-top: 30px;
+        font-family: "roboto";
+        color: rgba(20, 53, 101, 1);
+    }
+
+    .details {
+        padding-top: 50px;
+    }
+
+    div>b {
+        color: rgba(4, 40, 90, 1);
+    }
+
+    .button {
+        margin-top: 120px;
+        margin-left: 650px;
+        border-radius: 9px;
+        height: 78px;
+        width: 207px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .chatbot {
+        bottom: 0;
+        right: 63px;
+        position: fixed;
+
+    }
+
+    .socialogo {
+        position: sticky;
+        top: 80px;
+        margin-top: 25vh;
+        float: right;
+    }
+
+    .socialogo img {
+        height: 250px;
+        display: block;
+        width: fit-content;
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div class="nav-header">
+            <div class="header-text">DaPPr</div>
+            <div class="header-item">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Information</a></li>
+                    <li><a href="">More <i class="fa">&#xf107;</i> </a></li>
+                    <li><input type="text" name="" placeholder="search....                      &#128269; " id="">
+                    </li>
+                </ul>
+            </div>
+            <div class="header-menubar">&#9776;</div>
+        </div>
+        <div class="socialogo">
+
+            <img src="/mp2/Frame 1.png" alt="">
+
+
+        </div>
+        <div class="card-one">
+            <div class="img-card">
+                <img src="/mp2/image.png" alt="computer" width="456px" height="507px">
+            </div>
+            <div class="text-box">
+                <div class="text">
+                    It's not only writers who can benefit from this free online tool. If you're a programmer who's
+                    working on a ......
+                </div>
+            </div>
+
+        </div>
+        <div class="box">
+            <div style="background: rgba(146, 157, 255, 1);">Total Question’s <br> <br> 200,000</div>
+            <div style="background: rgba(115, 76, 242, 1);">Total Answer’s <br><br>105,000</div>
+            <div style="background: rgba(210, 136, 255, 1);">Participated <br><br>10,000</div>
+            <div style="background: rgba(0, 0, 0, 1);">Total Passed <br> <br> 6,000</div>
+        </div>
+        <div class="endtext1">
+            <div class="endtext2">
+                <div class="selected">YOUR INFO</div>
+                <div>BOOKMARKS</div>
+                <div>SETTINGS</div>
+
+            </div>
+            <div class="info">
+                <p class="information">
+                    <b> Your information</b>
+                </p>
+                <div class="details">
+                    <div><b>Name</b> &nbsp;&nbsp; :&nbsp;&nbsp; Atul Singhal</div>
+                    <div><b>Email</b> &nbsp;&nbsp; :&nbsp;&nbsp; atul@gmail.com</div>
+                    <div><b>Phone</b> &nbsp; : &nbsp;&nbsp;+91 8131424888</div>
+                    <div><b>Marks</b> &nbsp; : &nbsp;&nbsp;500.00</div>
+                </div>
+                <div class="button">Next &#8594;</div>
+            </div>
+
+        </div>
+        <div class="chatbot">
+            <img src="/mp2/Group 2.png" alt="chatbot">
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
