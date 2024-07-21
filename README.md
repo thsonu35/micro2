@@ -32,12 +32,12 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/thsonu35/mp1.git
+    git clone https://github.com/thsonu35/micro2.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd mp1
+    cd micro2
     ```
 
 3. Open the `index.html` file in your browser to view the page.
